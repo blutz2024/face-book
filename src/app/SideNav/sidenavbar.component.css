@@ -1,0 +1,27 @@
+div.btn-group-vertical{
+    position: absolute;
+    top: 70px;
+    margin-bottom: 700px;
+    background-color: white;
+   
+}
+button.hi{
+    width: 377px;
+    height: 90px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+img.bye{
+    position: relative;
+    right: 150px;
+}
+
+p.word{
+    position: relative;
+    right: 20px;
+    top:0px;
+    padding-bottom:50px;
+}
+
+

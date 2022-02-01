@@ -1,8 +1,27 @@
 svg.bi{
     color: blue;
-    position: absolute;
-    top:3;
-    left:0.5cm;
-
+    position: fixed;
+    left: 10px;
+    padding-left: 0px;
 }
-
+form.search{
+    position: absolute;
+    padding: 30px;
+    left: 30px;
+}
+div.btn-group{
+    background-color: white;
+    align-content: center;
+    left: 380px;
+}
+button.hi{
+    height: 50px;
+    width: 100px;
+    background-color: transparent;
+    border-bottom-color: blue;
+    border-bottom-width: 5px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-style: dashed;
+}
