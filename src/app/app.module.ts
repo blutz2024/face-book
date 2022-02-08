@@ -5,13 +5,15 @@ import { SideNavBarComponent } from 'src/app/SideNav/sidenavbar.component';
 
 import { AppComponent } from './app.component';
 import { VerticalCardComponent } from './Cards/vertical.card.component';
+import { RightNavBarComponent } from './RightNavBar/rightnavbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavBarComponent,
     VerticalCardComponent,
-    SideNavBarComponent
+    SideNavBarComponent,
+    RightNavBarComponent
   ],
   imports: [
     BrowserModule

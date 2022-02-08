@@ -1,20 +1,10 @@
 div.card-group{
-    margin-left: 10cm;
-    margin-right: 10cm;
-
-    
-
+    position:relative;
+   left:300px;
+   
 }
 div.card{
     height: 220px;
-    width: 1200px;
-}
-form.status{
-    margin-top: 2cm;
-    margin-left: 10cm;
-    margin-right: 10cm;
-    width:400px;
-}
-div.card{
-    margin-top: 3cm;
+    width: 200px;
+   
 }

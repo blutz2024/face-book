@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector: 'fb-vertical-card',
@@ -8,5 +8,13 @@ import { Component } from "@angular/core";
 
 
 export class VerticalCardComponent{
+    @Input() img: string;
+    @Input() user: string;
+    @Input() update: string;
 
+    constructor() {
+        this.img = "";
+        this.user = "User Story";
+        this.update = "Updated just now";
+    }
 }
