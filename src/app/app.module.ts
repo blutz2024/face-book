@@ -6,6 +6,12 @@ import { SideNavBarComponent } from 'src/app/SideNav/sidenavbar.component';
 import { AppComponent } from './app.component';
 import { VerticalCardComponent } from './Cards/vertical.card.component';
 import { RightNavBarComponent } from './RightNavBar/rightnavbar.component';
+import { AppRoutingModule } from './app-routing.module';
+import { ProfileComponent } from './profile.component';
+import { HomeLayoutComponent } from './home-layout.component';
+import { WatchComponent } from './Routing/watch.component';
+import { MarketplaceComponent } from './marketplace.component';
+
 
 @NgModule({
   declarations: [
@@ -13,10 +19,15 @@ import { RightNavBarComponent } from './RightNavBar/rightnavbar.component';
     TopNavBarComponent,
     VerticalCardComponent,
     SideNavBarComponent,
-    RightNavBarComponent
+    RightNavBarComponent,
+    ProfileComponent,
+    HomeLayoutComponent,
+    WatchComponent, 
+    MarketplaceComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
