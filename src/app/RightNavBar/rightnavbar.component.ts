@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector:'fb-rightnavbar',
@@ -7,5 +7,13 @@ import { Component } from "@angular/core";
 })
 
 export class RightNavBarComponent{
+    @Input() img: string;
+    @Input() title: string;
+    @Input() name: string;
 
+    constructor() {
+        this.img = "";
+        this.title = "";
+        this.name = "";
+    }
 }

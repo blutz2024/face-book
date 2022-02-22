@@ -1,2 +1,9 @@
 2/15/2022
 -added 5 router links 
+
+2/22/22
+- I added a drop down components 
+- I used the constructor to deine eelements for my right nav bar and side nav bar 
+- this messed up the layout of everything 
+- I couldn't do the same process to the buttons on my main nav bar 
+- I changed teh border of my buttons nav bar components 

@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector:'fb-sidenavbar',
@@ -7,5 +7,13 @@ import { Component } from "@angular/core";
 })
 
 export class SideNavBarComponent{
+    @Input() img: string;
+    @Input() title: string;
+    @Input() caption: string;
 
+    constructor() {
+        this.img = "";
+        this.title = "Home";
+        this.caption = "";
+    }
 }
