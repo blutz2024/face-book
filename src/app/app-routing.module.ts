@@ -8,7 +8,7 @@ import { MarketplaceComponent } from './marketplace.component';
 
 const routes:Routes = [
   {path: "watch", component: WatchComponent},
-  {path: ' ', component: HomeLayoutComponent},
+  {path: '', component: HomeLayoutComponent},
   {path: 'bella.lutz.1293', component: ProfileComponent },
   {path: 'home', component: HomeLayoutComponent}, 
   {path: 'marketplace', component: MarketplaceComponent},
