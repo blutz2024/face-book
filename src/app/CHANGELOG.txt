@@ -7,3 +7,9 @@
 - this messed up the layout of everything 
 - I couldn't do the same process to the buttons on my main nav bar 
 - I changed teh border of my buttons nav bar components 
+
+
+2/28/22
+- i added in the http client aspect 
+- i created a firebase 
+- i created a new user-component to print the characteristics of my firebase
