@@ -11,6 +11,8 @@ import { ProfileComponent } from './profile.component';
 import { HomeLayoutComponent } from './home-layout.component';
 import { WatchComponent } from './Routing/watch.component';
 import { MarketplaceComponent } from './marketplace.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import { HttpClientModule } from '@angular/common/http'
 
 
 @NgModule({
@@ -23,11 +25,13 @@ import { MarketplaceComponent } from './marketplace.component';
     ProfileComponent,
     HomeLayoutComponent,
     WatchComponent, 
-    MarketplaceComponent
+    MarketplaceComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
