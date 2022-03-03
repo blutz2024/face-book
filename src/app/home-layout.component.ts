@@ -7,5 +7,5 @@ import { Component } from "@angular/core";
 })
 
 export class HomeLayoutComponent{
-
+//7:32
 }
