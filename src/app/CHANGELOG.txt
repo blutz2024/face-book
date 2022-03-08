@@ -16,23 +16,7 @@
 
 
 
-img.bye{
-    position: relative;
-    right: 150px;
-    background-color: transparent;
-}
-
-p.word{
-    position: relative;
-    right: 20px;
-    top:0px;
-    padding-bottom:50px;
-}
-
-p.label{
-    position: relative;
-    top:50px;
-    right:70px;
-    font-size: 20px;
-
-}
+3/7/22
+- I moved my mock data to my firebase database 
+- I used my vertical card component data to communicate with the backend and built
+it with a ngForLoop to driplay the programmatic parts of each card.

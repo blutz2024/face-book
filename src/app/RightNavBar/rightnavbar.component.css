@@ -6,4 +6,7 @@ button.hi{
     border-color: transparent;
 }
 
+.name{
+    transform: translateY(6px);
+}
 

@@ -4,7 +4,7 @@ import { ProductsService } from "./products.service";
 @Component({
     selector: 'fb-home-layout',
     templateUrl: 'home-layout.component.html',
-    
+    styleUrls:['home-layout.component.css']
 })
 
 export class HomeLayoutComponent{
