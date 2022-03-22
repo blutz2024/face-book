@@ -20,3 +20,8 @@
 - I moved my mock data to my firebase database 
 - I used my vertical card component data to communicate with the backend and built
 it with a ngForLoop to driplay the programmatic parts of each card.
+
+3/22/22
+-I created a web base app for my facebook project on firebase
+-I used the Angular Fire library to replace using HttpClient by relying on the AngularFirebaseDatabase 
+-I used ng build and ng deploy to create my universal link to my web based app

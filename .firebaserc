@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "face-book-bf177"
+  },
+  "targets": {
+    "face-book-bf177": {
+      "hosting": {
+        "face-book": [
+          "face-book-bf177"
+        ]
+      }
+    }
+  }
+}

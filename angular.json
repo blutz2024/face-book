@@ -26,8 +26,8 @@
               "src/favicon.ico",
               "src/assets",
               {
-                "glob":"bootstrap-icons.svg",
-                "input":"./node_modules/bootstrap-icons/",
+                "glob": "bootstrap-icons.svg",
+                "input": "./node_modules/bootstrap-icons/",
                 "output": "/assets/"
               }
             ],
@@ -45,7 +45,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -105,6 +105,16 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "face-book:build:production",
+            "firebaseProject": "face-book-bf177",
+            "firebaseHostingSite": "face-book-bf177"
           }
         }
       }

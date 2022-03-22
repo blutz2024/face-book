@@ -1,27 +1,24 @@
-import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { CardModel } from "./card.model";
-
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 @Injectable({
 providedIn: 'root'
 })
 
 export class ProductsService{
-    private baseUrl: string = "https://face-book-bf177-default-rtdb.firebaseio.com/";
-    private productsEndpoint: string = "product.json";
 
-    constructor(private http:HttpClient){
+    constructor(private db: AngularFireDatabase){
 
     }
 
     public getProducts(){
-        return this.http.get<CardModel []>(this.baseUrl + this.productsEndpoint);
+        //ProductItemModel
+        return this.db.list<CardModel>("product").valueChanges();
     }
 
 
     //one element 
     public getProduct(index:number){
-        return this.http.get<CardModel>(this.baseUrl + 'product/' + index + '.json');
     }
 
 
