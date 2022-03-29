@@ -25,3 +25,8 @@ it with a ngForLoop to driplay the programmatic parts of each card.
 -I created a web base app for my facebook project on firebase
 -I used the Angular Fire library to replace using HttpClient by relying on the AngularFirebaseDatabase 
 -I used ng build and ng deploy to create my universal link to my web based app
+
+3/29/22
+-I added a form as a component to add a card 
+-I added the addStory() method to add a card made from the form that the user fills in 
+-The addStory() was used within the code of my form to add it to the backend

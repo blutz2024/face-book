@@ -11,7 +11,9 @@ import { ProductsService } from "../products.service";
 
 export class FormComponent implements OnInit{
 
-    constructor(public ps : ProductsService){}
+    constructor(private ps : ProductsService){
+        
+    }
 
     ngOnInit(): void{
 
