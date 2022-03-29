@@ -21,7 +21,9 @@ export class ProductsService{
     public getProduct(index:number){
     }
 
-
+    addStory(card : CardModel){
+        this.db.list<CardModel>("products").push(card);
+    }
 
 
 }

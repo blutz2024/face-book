@@ -18,6 +18,8 @@ import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database'
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { FormsModule } from '@angular/forms';
+import { FormComponent } from './lab 9/form.component';
 
 
 @NgModule({
@@ -31,14 +33,16 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     HomeLayoutComponent,
     WatchComponent, 
     MarketplaceComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    AngularFirestoreModule, 
+    FormsModule
     ],
   providers: [],
   bootstrap: [AppComponent]
