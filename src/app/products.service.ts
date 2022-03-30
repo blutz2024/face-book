@@ -22,7 +22,7 @@ export class ProductsService{
     }
 
     addStory(card : CardModel){
-        this.db.list<CardModel>("products").push(card);
+        this.db.list<CardModel>("product").push(card);
     }
 
 

@@ -3,7 +3,6 @@
 <br>
 <br>
 <fb-user-info>Loading...</fb-user-info>
-<fb-form>Loading...</fb-form>
 <div class="d-flex justify-content-between">
     <div class = "container-fluid d-flex flex-column sidebars">
         <fb-sidenavbar img = "/assets/houseicon.png" title = "Home" caption = "Home">Loading...</fb-sidenavbar>
@@ -13,10 +12,13 @@
         <fb-sidenavbar img = "/assets/game.png" title = "Gaming" caption = "Games">Loading...</fb-sidenavbar>
         </div>
     <div class = "container-fluid d-flex justify-content-center">
-
+        <div class = "row row-cols-5">
         <div *ngFor="let card of cards">
-            <fb-vertical-card img = {{card.img}} user = {{card.user}} update={{card.update}}>Loading...</fb-vertical-card>
+            <div class = "col mt-2 mb-2">
+            <fb-vertical-card  class = "size mt-2 mb-2" img = {{card.img}} user = {{card.user}} update={{card.update}}>Loading...</fb-vertical-card>
         </div>
+        </div>
+    </div>
         <!--
         <fb-vertical-card img = "assets/userprofile.png" user = "Users Story" update="Last Updated just now">Loading...</fb-vertical-card>
         <fb-vertical-card img = "assets/waterfall.png" user = "Shellys Story" update="Last Updated 20 minutes ago">Loading...</fb-vertical-card>
