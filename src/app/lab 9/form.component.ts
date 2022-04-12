@@ -19,8 +19,8 @@ export class FormComponent implements OnInit{
 
     }
     addStory(card : CardModel){
-       // console.log("You clicked add story");
-       // console.log(card);
+       console.log("You clicked add story");
+       console.log(card);
         this.ps.addStory(card);
     }
 }

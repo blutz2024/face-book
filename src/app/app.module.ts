@@ -20,6 +20,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { FormsModule } from '@angular/forms';
 import { FormComponent } from './lab 9/form.component';
+import { AuthenticationComponent } from './authentication/authentication.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { FormComponent } from './lab 9/form.component';
     WatchComponent, 
     MarketplaceComponent,
     UserInfoComponent,
-    FormComponent
+    FormComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,

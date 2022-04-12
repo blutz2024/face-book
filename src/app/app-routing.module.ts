@@ -6,6 +6,7 @@ import { HomeLayoutComponent } from './home-layout.component';
 import { WatchComponent } from './Routing/watch.component';
 import { MarketplaceComponent } from './marketplace.component';
 import { FormComponent } from './lab 9/form.component';
+import { AuthenticationComponent } from './authentication/authentication.component';
 
 const routes:Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -14,6 +15,7 @@ const routes:Routes = [
   {path: 'home', component: HomeLayoutComponent}, 
   {path: 'marketplace', component: MarketplaceComponent},
   {path: 'admin', component: FormComponent},
+  {path: 'auth', component: AuthenticationComponent},
 
 ];
 
