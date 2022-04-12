@@ -30,3 +30,9 @@ it with a ngForLoop to driplay the programmatic parts of each card.
 -I added a form as a component to add a card 
 -I added the addStory() method to add a card made from the form that the user fills in 
 -The addStory() was used within the code of my form to add it to the backend
+
+4/12/22
+-I enabled authentication on my firebase 
+-I created a componenet for the authentication steps
+-I created a file for the service of authentication
+-Authentication component was connected to my website to display a message in the console
